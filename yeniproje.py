@@ -1,3 +1,7 @@
+import pandas as pd
+df = pd.read_excel('veriler.xlsx')
+print(df) 
+
 def menu():
     print("Hoşgeldiniz! Umarım iyi bir durumdasınızdır.")
     print("Lütfen bir işlem seçiniz:")
